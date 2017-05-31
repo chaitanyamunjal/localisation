@@ -126,6 +126,7 @@ static WebDriver driver;
 						results[i-1] = "Passed";	
 					}
 					else{
+						System.out.println(driver.findElement(By.id("L"+i)).getAttribute("value"));
 						results[i-1] = "Failed";
 					}
 					

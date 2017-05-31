@@ -40,7 +40,7 @@ body{
 	border: 3px solid black;
 	border-radius: 3px;
 	width: 500px;
-	height: 400px;
+	height: 500px;
 	position: relative;
 	top: 100px;
 	left: 700px;
@@ -66,7 +66,7 @@ table{
 	border:2px solid black;
 }
 
-#L5,.signup{
+#L11,.signup{
     background-color: #00A9E0;
     border: none;
     color: white;
@@ -80,5 +80,14 @@ table{
 }
 #login:hover{
 	opacity: 0.8;
+}
+
+label{
+	min-width:100px;
+	max-width:100px;
+	width:100px;
+	font-weight: bold;
+	margin-right: 20px;
+	display: inline-block;
 }
 

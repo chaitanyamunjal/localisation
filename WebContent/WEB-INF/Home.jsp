@@ -21,24 +21,49 @@
 				<form onsubmit="validate(event) && this.submit()" action="" method="POST">
 				<br>
 				
-				<h2 id="L2">Login Form</h2>
-				
 				<br><br>
-				<b>
 				
-				<label for="username" id="L3">Username</label>
+				<label for="name" id="L2">Name</label>
+				
+				<input type="text" name="name" id="name" required/><br><br>
+				
+				<label for="username" id="L3">XXXX</label>
 				
 				<input type="text" name="username" id="username" required/><br><br>
 				
-				<label for="password" id="L4">Password</label>  
+				<label for="email" id="L4">Email</label>
+				
+				<input type="text" name="email" id="email" required/><br><br>
+				
+				<label for="mobile" id="L5">Mobile</label>
+				
+				<input type="number" name="mobile" id="mobile" required/><br><br>
+				
+				<label for="password" id="L6">Password</label>  
 				
 				<input type="password" name="pass"id="pass" required/><br><br>
 				
-				<input type="submit" id="L5" name="login" value="XXXX" /><br><br>
 				
-				<input type="checkbox" id="L6" name="remember" value="XXXX">XXXX<br>
+				<label for="airlines" id="L7" style="margin-left:-44px">XXXX</label>
+				<select name="airlines">
+				  <option value="volvo">British Airways</option>
+				  <option value="saab">Air France</option>
+				  <option value="opel">Lufthansa</option>
+				  <option value="audi">Emirates</option>
+				</select>
+				<br><br>
 				
-				</b>
+				<label for="gender" id="L8" style="margin-left:-44px">XXXX</label>  
+				
+				<input type="radio" id="L9" name="gender" value="Male">Male</input>
+				
+				<input type="radio" id="L10" name="gender" value="Female">Female</input><br><br>
+				
+				<input type="submit" id="L11" name="login" value="XXXX" /><br><br>
+				
+				<input type="checkbox" id="L12" name="remember" value="XXXX">XXXX</input><br>
+				
+				
 				</form>
 			</div>	
 			
