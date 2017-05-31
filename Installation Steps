@@ -1,0 +1,10 @@
+// Installation Steps :-
+
+1. Clone 
+2. Download chromedriver.exe
+3. Update Code -> LanguageCheck.java :-
+	- Change FilePath for Input Excel sheet (language1.xls) in readExcel() method
+	- Change path in invokeBrowser() method -> System.setProperty()  -> put the path of chromedriver.exe 
+4. Maven Install
+5. Run on server -> HomeServlet.java
+6. Run -> LanguageCheck.java
